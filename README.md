@@ -1,2 +1,2 @@
 * Behaviour tree editor for unity.
-* Built on a heavily modified version of the node editor framework.
+* Built on a modified version of the node editor framework.
