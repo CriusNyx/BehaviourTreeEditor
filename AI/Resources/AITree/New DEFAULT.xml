@@ -12,12 +12,6 @@
         <AINode xsi:type="Nil" />
         <AINode xsi:type="Nil" />
         <AINode xsi:type="Nil" />
-      </subNodes>
-    </AINode>
-    <AINode xsi:type="Nil" />
-    <AINode xsi:type="Sequence">
-      <subNodes>
-        <AINode xsi:type="Nil" />
         <AINode xsi:type="Nil" />
       </subNodes>
     </AINode>

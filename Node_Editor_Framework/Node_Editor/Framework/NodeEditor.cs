@@ -221,7 +221,7 @@ namespace NodeEditorFramework
 
 			if (curEditorState.connectKnob != null)
 			{ // Draw the currently drawn connection
-				curEditorState.connectKnob.DrawConnection (Event.current.mousePosition);
+				curEditorState.connectKnob.DrawConnection(Event.current.mousePosition);
 				RepaintClients ();
 			}
 
