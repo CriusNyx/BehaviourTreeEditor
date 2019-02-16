@@ -1,0 +1,613 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e03cb73ed75e87a45a22e0dbbc6f4e78, type: 3}
+  m_Name: Bar
+  m_EditorClassIdentifier: 
+  editorStates:
+  - {fileID: 114022726555855398}
+  saveName: Assets\Node_Editor_Framework\Node_Editor\Resources\Saves\Bar
+  savePath: Assets\Node_Editor_Framework\Node_Editor\Resources\Saves\Bar.asset
+  livesInScene: 0
+  nodes:
+  - {fileID: 114956631610907208}
+  - {fileID: 114812533540053778}
+  - {fileID: 114400464601842536}
+  - {fileID: 114492641594307434}
+  - {fileID: 114544064022890588}
+  - {fileID: 114332399592201740}
+  - {fileID: 114639960326009928}
+  - {fileID: 114317200499386394}
+  - {fileID: 114203423260770098}
+  groups: []
+  rootNode: {fileID: 0}
+--- !u!114 &114022726555855398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ab6487237ff124ea4c2aa5de9ce3fb, type: 3}
+  m_Name: MainEditorState
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  parentEditor: {fileID: 0}
+  selectedNode: {fileID: 0}
+  panOffset: {x: 313, y: -370}
+  zoom: 1
+--- !u!114 &114031374363865834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: parent
+  m_EditorClassIdentifier: 
+  body: {fileID: 114400464601842536}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114578984336104822}
+  side: 3
+  sidePosition: 41
+  sideOffset: 0
+--- !u!114 &114045907468923754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: Child_1
+  m_EditorClassIdentifier: 
+  body: {fileID: 114332399592201740}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114869660337151922}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114143476832899304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: Child_4
+  m_EditorClassIdentifier: 
+  body: {fileID: 114332399592201740}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections: []
+  side: 1
+  sidePosition: 70
+  sideOffset: 0
+--- !u!114 &114203423260770098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac1686b1ad7c8f40bddeb5c7f07e9e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 105, y: 600}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  dataType: GameSystem.AI.Nil
+  data:
+    xml: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<Nil xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+      xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" />"
+    dataType: GameSystem.AI.Nil
+  parent: {fileID: 114988361035592894}
+--- !u!114 &114226624295233750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: parent
+  m_EditorClassIdentifier: 
+  body: {fileID: 114639960326009928}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114593872917302346}
+  side: 3
+  sidePosition: 78.5
+  sideOffset: 0
+--- !u!114 &114247923391802908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: child
+  m_EditorClassIdentifier: 
+  body: {fileID: 114956631610907208}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114784380464317128}
+  side: 1
+  sidePosition: 0
+  sideOffset: 0
+--- !u!114 &114317200499386394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac1686b1ad7c8f40bddeb5c7f07e9e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: -105, y: 600}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  dataType: GameSystem.AI.Nil
+  data:
+    xml: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<Nil xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+      xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" />"
+    dataType: GameSystem.AI.Nil
+  parent: {fileID: 114869660337151922}
+--- !u!114 &114332399592201740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5563dabfc363ce1459b9537ebf52b028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: -105, y: 400}
+  dynamicConnectionPorts:
+  - {fileID: 114593872917302346}
+  - {fileID: 114045907468923754}
+  - {fileID: 114456931589772896}
+  - {fileID: 114143476832899304}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  dataType: GameSystem.AI.Sequence
+  data:
+    xml: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<Sequence xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+      xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <subNodes />\r\n</Sequence>"
+    dataType: GameSystem.AI.Sequence
+  parent: {fileID: 114518386793807282}
+--- !u!114 &114400464601842536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5563dabfc363ce1459b9537ebf52b028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: -630, y: 400}
+  dynamicConnectionPorts:
+  - {fileID: 114580599648674770}
+  - {fileID: 114907887991262644}
+  - {fileID: 114790569266709272}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  dataType: GameSystem.AI.Sequence
+  data:
+    xml: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<Sequence xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+      xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <subNodes />\r\n</Sequence>"
+    dataType: GameSystem.AI.Sequence
+  parent: {fileID: 114031374363865834}
+--- !u!114 &114456931589772896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: Child_2
+  m_EditorClassIdentifier: 
+  body: {fileID: 114332399592201740}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114988361035592894}
+  side: 1
+  sidePosition: 50
+  sideOffset: 0
+--- !u!114 &114492641594307434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac1686b1ad7c8f40bddeb5c7f07e9e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: -735, y: 600}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  dataType: GameSystem.AI.Nil
+  data:
+    xml: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<Nil xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+      xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" />"
+    dataType: GameSystem.AI.Nil
+  parent: {fileID: 114821307346349552}
+--- !u!114 &114518386793807282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: parent
+  m_EditorClassIdentifier: 
+  body: {fileID: 114332399592201740}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114806195969168592}
+  side: 3
+  sidePosition: 38.5
+  sideOffset: 0
+--- !u!114 &114544064022890588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac1686b1ad7c8f40bddeb5c7f07e9e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: -525, y: 600}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  dataType: GameSystem.AI.Nil
+  data:
+    xml: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<Nil xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+      xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" />"
+    dataType: GameSystem.AI.Nil
+  parent: {fileID: 114883492541150688}
+--- !u!114 &114578984336104822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: Child_1
+  m_EditorClassIdentifier: 
+  body: {fileID: 114812533540053778}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114031374363865834}
+  side: 1
+  sidePosition: 10
+  sideOffset: 0
+--- !u!114 &114580599648674770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: Child_1
+  m_EditorClassIdentifier: 
+  body: {fileID: 114400464601842536}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114821307346349552}
+  side: 1
+  sidePosition: 10
+  sideOffset: 0
+--- !u!114 &114593872917302346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: Child_1
+  m_EditorClassIdentifier: 
+  body: {fileID: 114332399592201740}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114226624295233750}
+  side: 1
+  sidePosition: 10
+  sideOffset: 0
+--- !u!114 &114639960326009928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac1686b1ad7c8f40bddeb5c7f07e9e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: -315, y: 600}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  dataType: GameSystem.AI.Nil
+  data:
+    xml: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<Nil xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+      xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" />"
+    dataType: GameSystem.AI.Nil
+  parent: {fileID: 114226624295233750}
+--- !u!114 &114784380464317128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: parent
+  m_EditorClassIdentifier: 
+  body: {fileID: 114812533540053778}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114247923391802908}
+  side: 3
+  sidePosition: 41
+  sideOffset: 0
+--- !u!114 &114790569266709272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: Child_3
+  m_EditorClassIdentifier: 
+  body: {fileID: 114400464601842536}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections: []
+  side: 1
+  sidePosition: 50
+  sideOffset: 0
+--- !u!114 &114806195969168592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: Child_1
+  m_EditorClassIdentifier: 
+  body: {fileID: 114812533540053778}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114518386793807282}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114812533540053778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5563dabfc363ce1459b9537ebf52b028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 200}
+  dynamicConnectionPorts:
+  - {fileID: 114578984336104822}
+  - {fileID: 114806195969168592}
+  - {fileID: 114815514448576870}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  dataType: GameSystem.AI.Sequence
+  data:
+    xml: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<Sequence xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"
+      xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <subNodes />\r\n</Sequence>"
+    dataType: GameSystem.AI.Sequence
+  parent: {fileID: 114784380464317128}
+--- !u!114 &114815514448576870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: Child_3
+  m_EditorClassIdentifier: 
+  body: {fileID: 114812533540053778}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections: []
+  side: 1
+  sidePosition: 50
+  sideOffset: 0
+--- !u!114 &114821307346349552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: parent
+  m_EditorClassIdentifier: 
+  body: {fileID: 114492641594307434}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114580599648674770}
+  side: 3
+  sidePosition: 78.5
+  sideOffset: 0
+--- !u!114 &114869660337151922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: parent
+  m_EditorClassIdentifier: 
+  body: {fileID: 114317200499386394}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114045907468923754}
+  side: 3
+  sidePosition: 78.5
+  sideOffset: 0
+--- !u!114 &114883492541150688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: parent
+  m_EditorClassIdentifier: 
+  body: {fileID: 114544064022890588}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114907887991262644}
+  side: 3
+  sidePosition: 78.5
+  sideOffset: 0
+--- !u!114 &114907887991262644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: Child_1
+  m_EditorClassIdentifier: 
+  body: {fileID: 114400464601842536}
+  direction: 2
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114883492541150688}
+  side: 1
+  sidePosition: 30
+  sideOffset: 0
+--- !u!114 &114956631610907208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62ab78f24734fa4fb71d7abeeb71f2c, type: 3}
+  m_Name: Root Node
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0}
+  dynamicConnectionPorts: []
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  dataType: 
+  data:
+    xml: 
+    dataType: 
+  treeName: '*'
+  child: {fileID: 114247923391802908}
+--- !u!114 &114988361035592894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d338988a4691f43b8c0764bd85cf70, type: 3}
+  m_Name: parent
+  m_EditorClassIdentifier: 
+  body: {fileID: 114203423260770098}
+  direction: 1
+  maxConnectionCount: 0
+  styleID: Default
+  _connections:
+  - {fileID: 114456931589772896}
+  side: 3
+  sidePosition: 78.5
+  sideOffset: 0

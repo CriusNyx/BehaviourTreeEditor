@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-16"?>
+<AINode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Sequence">
+  <subNodes>
+    <AINode xsi:type="Sequence">
+      <subNodes>
+        <AINode xsi:type="Nil" />
+        <AINode xsi:type="Nil" />
+      </subNodes>
+    </AINode>
+    <AINode xsi:type="Sequence">
+      <subNodes>
+        <AINode xsi:type="Nil" />
+        <AINode xsi:type="Nil" />
+        <AINode xsi:type="Nil" />
+      </subNodes>
+    </AINode>
+    <AINode xsi:type="Nil" />
+    <AINode xsi:type="Sequence">
+      <subNodes>
+        <AINode xsi:type="Nil" />
+        <AINode xsi:type="Nil" />
+      </subNodes>
+    </AINode>
+  </subNodes>
+</AINode>
